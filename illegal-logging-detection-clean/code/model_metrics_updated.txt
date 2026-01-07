@@ -1,0 +1,30 @@
+======================================================================
+UPDATED MODEL PERFORMANCE METRICS
+======================================================================
+
+Overall Accuracy: 94.56%
+
+Per-Class Metrics:
+  ILLEGAL:
+    Precision: 96.71%
+    Recall: 93.14%
+    F1-Score: 94.89%
+
+  NATURAL:
+    Precision: 92.22%
+    Recall: 96.25%
+    F1-Score: 94.19%
+
+Confusion Matrix:
+[[882  65]
+ [ 30 770]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     illegal       0.97      0.93      0.95       947
+     natural       0.92      0.96      0.94       800
+
+    accuracy                           0.95      1747
+   macro avg       0.94      0.95      0.95      1747
+weighted avg       0.95      0.95      0.95      1747
